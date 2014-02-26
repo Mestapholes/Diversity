@@ -18,9 +18,6 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/74xx-little-de.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/74xx-little-us.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/74xx-us.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/751xx.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/Maxim_By_element14_Batch_1.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/Texas Instruments_By_element14_Batch_1.lbr"
-UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/adafruit.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/advanced-test-technologies.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/agilent-technologies.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/allegro.lbr"
@@ -344,7 +341,6 @@ UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/zetex.lbr"
 UsedLibrary="C:/Program Files (x86)/EAGLE-6.5.0/lbr/zilog.lbr"
-UsedLibrary="C:/Users/cfi/Downloads/lm1881.lbr"
 
 [Win_1]
 Type="Control Panel"
@@ -353,5 +349,5 @@ State=2
 Number=0
 
 [Desktop]
-Screen="3520 1200"
+Screen="1680 1050"
 Window="Win_1"
