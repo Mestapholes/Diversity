@@ -13906,9 +13906,9 @@ Low profile connectors, straight&lt;p&gt;
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="P+8" library="supply1" deviceset="+12V" device=""/>
 <part name="SV1" library="con-harting-ml" deviceset="ML16" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
+<part name="P+8" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14020,9 +14020,9 @@ Low profile connectors, straight&lt;p&gt;
 <instance part="GND22" gate="1" x="223.52" y="86.36" rot="R270"/>
 <instance part="GND23" gate="1" x="233.68" y="124.46" rot="R270"/>
 <instance part="GND25" gate="1" x="243.84" y="157.48"/>
-<instance part="P+8" gate="1" x="243.84" y="177.8"/>
 <instance part="SV1" gate="1" x="10.16" y="99.06" rot="R180"/>
 <instance part="P+2" gate="1" x="142.24" y="48.26"/>
+<instance part="P+8" gate="1" x="243.84" y="180.34"/>
 </instances>
 <busses>
 </busses>
@@ -14058,10 +14058,6 @@ Low profile connectors, straight&lt;p&gt;
 <pinref part="P+7" gate="1" pin="+12V"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="256.54" y1="129.54" x2="256.54" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="P" pin="V+"/>
-<pinref part="P+8" gate="1" pin="+12V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -14375,6 +14371,11 @@ Low profile connectors, straight&lt;p&gt;
 <junction x="134.62" y="66.04"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="142.24" y1="38.1" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="P" pin="V+"/>
+<pinref part="P+8" gate="1" pin="+5V"/>
+<wire x1="243.84" y1="175.26" x2="243.84" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A0" class="0">
